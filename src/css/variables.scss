@@ -1,0 +1,35 @@
+// colors
+$dark: rgb(87, 83, 83);
+$light: #fff;
+$primary: rgb(162, 162, 246);
+$bg: rgb(244, 244, 255);
+$select: rgb(139, 217, 248);
+
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+// border radius
+$borderRadius: 12px;
+$md: 920px;
+$sm: 768px;
+// header height
+$headerHeight: 100px;
+
+@mixin breakpoint($point) {
+    @if $point == $md {
+        // 920px
+        @media (min-width: $md) {
+            @content;
+        }
+    }
+}
+
+@mixin tinyScreen($point) {
+    @if $point == $sm {
+        // 768px
+        @media (min-width: $sm) {
+            @content;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@import './variables.scss';
+
+.home {
+    position: relative;
+    background: white;
+    overflow: hidden;
+
+    h2 {
+        position: relative;
+        z-index: 2
+    }
+
+    .container {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        @include tinyScreen($sm) {
+            flex: auto;
+            justify-content: stretch;
+        }
+    }
+}
