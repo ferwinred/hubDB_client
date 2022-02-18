@@ -52,7 +52,7 @@ const NavMenu = () => {
           className="content pd-0 "
         >
           <Link to="/" className="logo">
-            TU VUELO YA
+            HUBSPOT APP
           </Link>
           <nav
             //Este componente tiene una clase adicional que se activa cuando el menuOpen es true

@@ -53,7 +53,7 @@ const Home = () => {
   return (
     <div className="w-100 home d-flex flex-column">
       <h2 className="text-dark fw-bold w-100 bg-light text-center opacity-100">
-        Bienvenido a Tu Vuelo Ya
+        Bienvenido a HUBSPOT APP
       </h2>
 
       <div className="container align-content-center justify-content-center">
